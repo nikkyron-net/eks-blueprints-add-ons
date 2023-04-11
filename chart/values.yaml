@@ -86,7 +86,7 @@ certManagerCsiDriver:
 
 # Cluster Autoscaler Values
 clusterAutoscaler:
-  enable: false
+  enable: true
   serviceAccountName:
 
 # Datadog Operator
@@ -146,7 +146,7 @@ keda:
 
 # Metrics Server Values
 metricsServer:
-  enable: false
+  enable: true
 
 # Ondat Values
 ondat:
