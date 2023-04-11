@@ -211,7 +211,7 @@ yunikorn:
 
 # Argo Rollout Values
 argoRollouts:
-  enable: false
+  enable: true
   createNamespace: true
 
 # Argo Rollout Values
