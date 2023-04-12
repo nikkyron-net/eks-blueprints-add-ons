@@ -37,6 +37,6 @@ kube-prometheus-stack:
       failurePolicy: Ignore
 
   ## additional configuration options available here: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/values.yaml
-  grafana:
-    ingress:
-      enabled: true
+grafana:
+  ingress:
+    enabled: true
