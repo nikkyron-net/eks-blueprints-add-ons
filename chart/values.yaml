@@ -86,7 +86,7 @@ certManagerCsiDriver:
 
 # Cluster Autoscaler Values
 clusterAutoscaler:
-  enable: true
+  enable: false
   serviceAccountName:
 
 # Datadog Operator
@@ -146,7 +146,7 @@ keda:
 
 # Metrics Server Values
 metricsServer:
-  enable: true
+  enable: false
 
 # Ondat Values
 ondat:
@@ -211,7 +211,7 @@ yunikorn:
 
 # Argo Rollout Values
 argoRollouts:
-  enable: true
+  enable: false
   createNamespace: true
 
 # Argo Rollout Values
@@ -260,7 +260,7 @@ reloader:
 
 # Kube Prometheus Stack
 kubePrometheusStack:
-  enable: true
+  enable: false
 
 # Kyverno Values
 kyverno:
